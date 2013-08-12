@@ -47,3 +47,6 @@ PRODUCT_PACKAGES += \
     Launcher3 \
     Terminal \
     WallpaperPicker
+
+# easy way to extend to add more packages
+-include vendor/extra/product.mk
