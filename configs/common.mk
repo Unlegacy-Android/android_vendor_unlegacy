@@ -44,5 +44,4 @@ PRODUCT_PACKAGE_OVERLAYS += \
 # Common packages
 # PRODUCT_PACKAGES += 
 
-# easy way to extend to add more packages
--include vendor/extra/product.mk
+$(call inherit-product-if-exists, vendor/extra/product.mk)
