@@ -28,5 +28,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGE_OVERLAYS += \
     vendor/unlegacy/overlay/common
 
-# easy way to extend to add more packages
--include vendor/extra/product.mk
+$(call inherit-product-if-exists, vendor/extra/product.mk)
