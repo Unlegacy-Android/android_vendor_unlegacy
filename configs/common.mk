@@ -48,5 +48,4 @@ PRODUCT_PACKAGES += \
     Terminal \
     WallpaperPicker
 
-# easy way to extend to add more packages
--include vendor/extra/product.mk
+$(call inherit-product-if-exists, vendor/extra/product.mk)
