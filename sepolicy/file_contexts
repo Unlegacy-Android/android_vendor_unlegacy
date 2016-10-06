@@ -1,0 +1,2 @@
+# Recovery's "cache"
+/cache/recovery(/.*)?     u:object_r:recovery_cache_file:s0
