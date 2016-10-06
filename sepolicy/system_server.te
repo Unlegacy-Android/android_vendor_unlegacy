@@ -1,0 +1,3 @@
+allow system_server cache_recovery_file:dir rw_dir_perms;
+allow system_server cache_recovery_file:file create_file_perms;
+allow system_server cache_recovery_file:fifo_file create_file_perms;
