@@ -38,4 +38,5 @@ PRODUCT_PACKAGE_OVERLAYS += \
     vendor/unlegacy/overlay/common
 
 # Common packages
-PRODUCT_PACKAGES += 
+PRODUCT_PACKAGES += \
+    Browser
