@@ -13,4 +13,5 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/products/ua_espresso.mk
+    $(LOCAL_DIR)/products/ua_espresso.mk \
+    $(LOCAL_DIR)/products/ua_espresso3g.mk
