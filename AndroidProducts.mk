@@ -15,4 +15,5 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/products/ua_espresso.mk \
     $(LOCAL_DIR)/products/ua_espresso3g.mk \
+    $(LOCAL_DIR)/products/ua_picasso2.mk \
     $(LOCAL_DIR)/products/ua_tuna.mk
