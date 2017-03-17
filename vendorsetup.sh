@@ -10,5 +10,6 @@ add_lunch_combo ua_grouper-userdebug
 add_lunch_combo ua_hummingbird-userdebug
 add_lunch_combo ua_mako-userdebug
 add_lunch_combo ua_ovation-userdebug
+add_lunch_combo ua_picasso2-userdebug
 add_lunch_combo ua_tilapia-userdebug
 add_lunch_combo ua_tuna-userdebug
