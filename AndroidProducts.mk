@@ -15,6 +15,7 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/products/ua_espresso.mk \
     $(LOCAL_DIR)/products/ua_espresso3g.mk \
+    $(LOCAL_DIR)/products/ua_flo.mk \
     $(LOCAL_DIR)/products/ua_flounder.mk \
     $(LOCAL_DIR)/products/ua_flounder_lte.mk \
     $(LOCAL_DIR)/products/ua_grouper.mk \

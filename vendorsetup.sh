@@ -6,6 +6,7 @@
 # Unlegacy Android devices combos
 add_lunch_combo ua_espresso-userdebug
 add_lunch_combo ua_espresso3g-userdebug
+add_lunch_combo ua_flo-userdebug
 add_lunch_combo ua_flounder-userdebug
 add_lunch_combo ua_flounder_lte-userdebug
 add_lunch_combo ua_grouper-userdebug
