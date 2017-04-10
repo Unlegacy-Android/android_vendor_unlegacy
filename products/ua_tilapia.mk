@@ -21,7 +21,7 @@ $(call inherit-product, device/asus/tilapia/aosp_tilapia.mk)
 PRODUCT_NAME   := ua_tilapia
 PRODUCT_DEVICE := tilapia
 PRODUCT_BRAND  := google
-PRODUCT_MODEL  := Nexus 7 3G
+PRODUCT_MODEL  := Nexus 7
 PRODUCT_MANUFACTURER := Asus
 
 # Device Fingerprint
