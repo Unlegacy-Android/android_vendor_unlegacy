@@ -17,6 +17,8 @@
  */
 -->
 <resources>
+    <bool name="def_wifi_on">true</bool>
+
     <!-- Googles Backup transport service -->
     <string name="def_backup_transport" translatable="false">com.google.android.gms/.backup.BackupTransportService</string>
 </resources> 
