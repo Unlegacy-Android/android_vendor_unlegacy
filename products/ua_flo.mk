@@ -24,8 +24,6 @@ PRODUCT_BRAND  := google
 PRODUCT_MODEL  := Nexus 7
 PRODUCT_MANUFACTURER := Asus
 
-# Device build info and fingerprint
+# Device build info
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=razor \
-    BUILD_FINGERPRINT="google/razor/flo:6.0.1/MOB30X/3036618:user/release-keys" \
-    PRIVATE_BUILD_DESC="razor-user 6.0.1 MOB30X 3036618 release-keys"
+    PRODUCT_NAME=razor

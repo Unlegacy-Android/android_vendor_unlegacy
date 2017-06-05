@@ -24,8 +24,6 @@ PRODUCT_BRAND  := google
 PRODUCT_MODEL  := Galaxy Nexus
 PRODUCT_MANUFACTURER := Samsung
 
-# Device build info and fingerprint
+# Device build info
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=yakju \
-    BUILD_FINGERPRINT="google/yakju/maguro:4.3/JWR66Y/776638:user/release-keys" \
-    PRIVATE_BUILD_DESC="yakju-user 4.3 JWR66Y 776638 release-keys"
+    PRODUCT_NAME=yakju
