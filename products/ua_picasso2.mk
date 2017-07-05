@@ -24,6 +24,8 @@ PRODUCT_BRAND := Acer
 PRODUCT_MODEL := Picasso 2
 PRODUCT_MANUFACTURER := Acer
 
-# Device build info
+# Device Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=a700_emea_gb
+    PRODUCT_NAME=a700_emea_gb \
+    BUILD_FINGERPRINT="acer/a700_emea_gb/picasso_mf:4.1.1/JRO03H/1351007042:user/release-keys" \
+    PRIVATE_BUILD_DESC="a700_emea_gb-user 4.1.1 JRO03H 1351007042 release-keys"

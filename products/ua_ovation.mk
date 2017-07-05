@@ -24,6 +24,8 @@ PRODUCT_BRAND  := NOOK
 PRODUCT_MODEL  := Nook HD+
 PRODUCT_MANUFACTURER := BN LLC
 
-# Device build info
+# Device build info and fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=HDplus
+    PRODUCT_NAME=HDplus \
+    BUILD_FINGERPRINT="NOOK/HDplus/ovation:4.0.4/IMM76L/2.2.1.8015:user/release-keys" \
+    PRIVATE_BUILD_DESC="HDplus-user 4.0.4 IMM76L 2.2.1.8015 release-keys"

@@ -24,6 +24,8 @@ PRODUCT_BRAND  := samsung
 PRODUCT_MODEL  := Galaxy Tab 2
 PRODUCT_MANUFACTURER := Samsung
 
-# Device build info
+# Device build info and fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=espresso10wifixx
+    PRODUCT_NAME=espresso10wifixx \
+    BUILD_FINGERPRINT="samsung/espresso10wifixx/espresso10wifi:4.2.2/JDQ39/P5110XXDML1:user/release-keys" \
+    PRIVATE_BUILD_DESC="espresso10wifixx-user 4.2.2 JDQ39 P5110XXDML1 release-keys"

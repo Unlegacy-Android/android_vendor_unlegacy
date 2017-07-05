@@ -24,6 +24,8 @@ PRODUCT_BRAND  := google
 PRODUCT_MODEL  := Nexus 7
 PRODUCT_MANUFACTURER := Asus
 
-# Device build info
+# Device Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=nakasi
+    PRODUCT_NAME=nakasi \
+    BUILD_FINGERPRINT="google/nakasi/grouper:5.1/LMY47D/1743759:user/release-keys" \
+    PRIVATE_BUILD_DESC="nakasi-user 5.1 LMY47D 1743759 release-keys"

@@ -27,6 +27,9 @@ PRODUCT_BRAND  := google
 PRODUCT_MODEL  := Nexus 9
 PRODUCT_MANUFACTURER := HTC
 
-# Device build info
+# Device Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=volantis
+    PRODUCT_NAME=volantis \
+    BUILD_FINGERPRINT=google/volantis/flounder:7.1.1/NMF26F/3425388:user/release-keys \
+    PRIVATE_BUILD_DESC="volantis-user 7.1.1 NMF26F 3425388 release-keys"
+
