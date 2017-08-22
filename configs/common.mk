@@ -43,4 +43,7 @@ PRODUCT_PACKAGE_OVERLAYS += \
 
 # Common packages
 PRODUCT_PACKAGES += \
-    Browser
+    Browser \
+    Launcher3 \
+    Terminal \
+    WallpaperPicker
