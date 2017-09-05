@@ -22,7 +22,7 @@ $(call inherit-product, device/htc/flounder/aosp_flounder_lte.mk)
 PRODUCT_RESTRICT_VENDOR_FILES :=
 
 PRODUCT_NAME   := ua_flounder_lte
-PRODUCT_DEVICE := flounder_lte
+PRODUCT_DEVICE := flounder
 PRODUCT_BRAND  := google
 PRODUCT_MODEL  := Nexus 9
 PRODUCT_MANUFACTURER := HTC
