@@ -29,6 +29,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.setupwizard.enterprise_mode=1 \
     ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent
 
+# Show SELinux status in settings
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.selinux=1
+
 # Backup services whitelist
 PRODUCT_COPY_FILES += \
     vendor/unlegacy/configs/permissions/backup.xml:system/etc/sysconfig/backup.xml
