@@ -15,6 +15,7 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/products/ua_a2109.mk \
     $(LOCAL_DIR)/products/ua_acclaim.mk \
+    $(LOCAL_DIR)/products/ua_deb.mk \
     $(LOCAL_DIR)/products/ua_espresso.mk \
     $(LOCAL_DIR)/products/ua_espresso3g.mk \
     $(LOCAL_DIR)/products/ua_flo.mk \
