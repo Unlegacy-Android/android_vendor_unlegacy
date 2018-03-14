@@ -7,6 +7,7 @@
 add_lunch_combo ua_a2109-userdebug
 add_lunch_combo ua_acclaim-userdebug
 add_lunch_combo ua_bacon-userdebug
+add_lunch_combo ua_deb-userdebug
 add_lunch_combo ua_espresso-userdebug
 add_lunch_combo ua_espresso3g-userdebug
 add_lunch_combo ua_flo-userdebug
