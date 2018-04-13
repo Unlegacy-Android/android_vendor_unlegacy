@@ -82,10 +82,6 @@ $(call set-device-specific-path,AUDIO,audio,hardware/qcom/audio-caf/$(QCOM_HARDW
 $(call set-device-specific-path,DISPLAY,display,hardware/qcom/display-caf/$(QCOM_HARDWARE_VARIANT))
 $(call set-device-specific-path,MEDIA,media,hardware/qcom/media-caf/$(QCOM_HARDWARE_VARIANT))
 
-$(call set-device-specific-path,CAMERA,camera,hardware/qcom/camera)
-$(call set-device-specific-path,GPS,gps,hardware/qcom/gps)
-$(call set-device-specific-path,SENSORS,sensors,hardware/qcom/sensors)
-$(call set-device-specific-path,LOC_API,loc-api,vendor/qcom/opensource/location)
 $(call set-device-specific-path,DATASERVICES,dataservices,vendor/qcom/opensource/dataservices)
 
 $(call ril-set-path-variant,ril)
@@ -98,10 +94,6 @@ $(call set-device-specific-path,AUDIO,audio,hardware/qcom/audio)
 $(call set-device-specific-path,DISPLAY,display,hardware/qcom/display/$(TARGET_BOARD_PLATFORM))
 $(call set-device-specific-path,MEDIA,media,hardware/qcom/media/$(TARGET_BOARD_PLATFORM))
 
-$(call set-device-specific-path,CAMERA,camera,hardware/qcom/camera)
-$(call set-device-specific-path,GPS,gps,hardware/qcom/gps)
-$(call set-device-specific-path,SENSORS,sensors,hardware/qcom/sensors)
-$(call set-device-specific-path,LOC_API,loc-api,vendor/qcom/opensource/location)
 $(call set-device-specific-path,DATASERVICES,dataservices,$(TARGET_DEVICE_DIR)/dataservices)
 
 $(call ril-set-path-variant,ril)
@@ -109,3 +101,8 @@ $(call wlan-set-path-variant,wlan)
 $(call bt-vendor-set-path-variant,bt)
 
 endif
+
+$(call set-device-specific-path,CAMERA,camera,hardware/qcom/camera)
+$(call set-device-specific-path,GPS,gps,hardware/qcom/gps)
+$(call set-device-specific-path,SENSORS,sensors,hardware/qcom/sensors)
+$(call set-device-specific-path,LOC_API,loc-api,vendor/qcom/opensource/location)
