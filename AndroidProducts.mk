@@ -18,6 +18,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/products/ua_espresso3g.mk \
     $(LOCAL_DIR)/products/ua_grouper.mk \
     $(LOCAL_DIR)/products/ua_hummingbird.mk \
+    $(LOCAL_DIR)/products/ua_hammerhead.mk \
     $(LOCAL_DIR)/products/ua_mako.mk \
     $(LOCAL_DIR)/products/ua_ovation.mk \
     $(LOCAL_DIR)/products/ua_picasso2.mk \
