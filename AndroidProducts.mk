@@ -23,4 +23,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/products/ua_ovation.mk \
     $(LOCAL_DIR)/products/ua_picasso2.mk \
     $(LOCAL_DIR)/products/ua_tilapia.mk \
+    $(LOCAL_DIR)/products/ua_transformer.mk \
     $(LOCAL_DIR)/products/ua_tuna.mk
